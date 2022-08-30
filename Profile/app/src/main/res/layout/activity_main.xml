@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30sp"
+        android:layout_marginBottom="200dp"
+        android:text="Login"
+        tools:text="Login" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="340dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:layout_marginBottom="5dp"
+            android:hint="User name"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:hint="*********"
+            android:inputType="textPassword"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="210dp"
+        android:layout_height="276dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="63dp"
+        app:srcCompat="@drawable/profile" />
+
+</RelativeLayout>
+<!--<LinearLayout-->
+<!--    android:weightSum="10"-->
+<!--    android:orientation="horizontal"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_width="match_parent"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android" >-->
+
+<!--    <LinearLayout-->
+<!--        android:background="#ff0"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_weight="2"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent">-->
+<!--        <TextView-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="1"-->
+<!--            android:textSize="30dp"-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="#00BCD4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--        <TextView-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="2"-->
+<!--            android:textSize="30dp"-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="#00BCD4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--    </LinearLayout>-->
+
+<!--&lt;!&ndash;    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="Hoang Thai Thang 0"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_weight="2"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textSize="30sp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textColor="#673AB7"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:background="#4CFF00"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="match_parent" />&ndash;&gt;-->
+
+<!--    <LinearLayout-->
+<!--        android:background="#f00"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_weight="3"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent">-->
+<!--        <TextView-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="3"-->
+<!--            android:textSize="30dp"-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="#00BCD4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--        <TextView-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="4"-->
+<!--            android:textSize="30dp"-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="#00BCD4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--        <TextView-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="5"-->
+<!--            android:textSize="30dp"-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="#00BCD4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--    </LinearLayout>-->
+<!--&lt;!&ndash;    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="Hoang Thai Thang 1"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_weight="3"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textSize="30sp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textColor="#673AB7"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:background="#F44336"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="match_parent" />&ndash;&gt;-->
+<!--    <LinearLayout-->
+<!--        android:weightSum="4"-->
+<!--        android:background="#3F51B5"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_weight="4"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent">-->
+<!--        <TextView-->
+<!--            android:layout_weight="3"-->
+<!--            android:text="6"-->
+<!--            android:textSize="30dp"-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="#00BCD4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--        <TextView-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="7"-->
+<!--            android:textSize="30dp"-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="#00BCD4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--    </LinearLayout>-->
+<!--&lt;!&ndash;    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="Hoang Thai Thang 2"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_weight="4"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textSize="30sp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textColor="#673AB7"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:background="#03A9F4"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="match_parent" />&ndash;&gt;-->
+
+<!--    <TextView-->
+<!--        android:text="Hoang Thai Thang 3"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_weight="1"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textColor="#673AB7"-->
+<!--        android:background="#FF5722"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent" />-->
+<!--</LinearLayout>-->
